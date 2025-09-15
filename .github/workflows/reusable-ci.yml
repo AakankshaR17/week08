@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: ${{ inputs.service_path }}
+        working-directory: ${{ inputs.service_path }}   # ✅ corrected
 
     steps:
       - uses: actions/checkout@v4
